@@ -24,5 +24,7 @@ backup_folder = "\\backuptest"
 if os.path.exists(path) and os.path.exists(move_folder) and os.path.exists(
   backup_folder) and files.startswith(
     "Test") and files.endswith(".DAT"):
+    
+    
 in this case i will copy all files that start with "Test" and end with ".DAT" and delete them after they get copyed.
        

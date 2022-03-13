@@ -8,7 +8,11 @@ in the source_folder. A move has appeared to be running in alot of error sometim
 you can change the folowing strings as you need it:
 
 path = "\\TestPath1"
+
+
 path2 = "\\Testpath2"
+
+
 move_folder = ''.join(("//Test_move/", os.getlogin(),))
 <!--      with the move_folder i did something special i wanted to get a login name from the user that runs this script so 
           that you can copy a file/or fodler into a pathwith alot of usernames in it and move the files direcly into the specific username folder-->

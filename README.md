@@ -14,13 +14,15 @@ path2 = "\\Testpath2"
 
 
 move_folder = ''.join(("//Test_move/", os.getlogin(),))
-<!--      with the move_folder i did something special i wanted to get a login name from the user that runs this script so 
-          that you can copy a file/or fodler into a pathwith alot of usernames in it and move the files direcly into the specific username folder-->
+with the move_folder i did something special i wanted to get a login name from the user that runs this script so 
+that you can copy a file/or fodler into a pathwith alot of usernames in it and move the files direcly into the specific username folder-->
+
+
 backup_folder = "\\backuptest"
 
 
 if os.path.exists(path) and os.path.exists(move_folder) and os.path.exists(
   backup_folder) and files.startswith(
     "Test") and files.endswith(".DAT"):
-<!--     in this case i will copy all files that start with "Test" and end with ".DAT" and delete them after they get copyed. -->
+in this case i will copy all files that start with "Test" and end with ".DAT" and delete them after they get copyed.
        
